@@ -1,0 +1,18 @@
+{
+  "name": "healthcare-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@prisma/client": "^5.15.0",
+    "axios": "^1.4.0",
+    "pg": "^8.16.3",
+    "prisma": "^5.15.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start"
+  }
+}
