@@ -1,20 +1,18 @@
 {
-  "name": "healthcare-frontend",
+  "name": "healthcare-backend",
   "version": "1.0.0",
   "private": true,
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "@prisma/client": "^5.15.0",
     "axios": "^1.4.0",
-    "cors": "^2.8.6",
+    "cors": "^2.8.5",
     "dotenv": "^17.3.1",
+    "express": "^4.22.2",
     "pg": "^8.16.3",
-    "prisma": "^5.15.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.14.1",
-    "react-scripts": "5.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start"
+    "prisma": "^5.15.0"
   }
 }
